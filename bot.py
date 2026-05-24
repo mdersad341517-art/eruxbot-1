@@ -233,11 +233,6 @@ app.add_handler(
     MessageHandler(filters.StatusUpdate.NEW_CHAT_MEMBERS, welcome)
 )
 app.add_handler(CommandHandler("alive", alive))
-print("BOT RUNNING...")
+prinprint("BOT RUNNING...")
 
-import asyncio
-
-async def main():
-    await app.run_polling()
-
-asyncio.run(main())
+app.run_polling(close_loop=False)
