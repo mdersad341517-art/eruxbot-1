@@ -1,4 +1,5 @@
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
+BOT
+rintprint telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, CallbackQueryHandler, filters
 
 TOKEN = "8436372151:AAHSa2Fj0e0oT2SVe-ZFYJzcRwvR20AmP6E"
@@ -233,6 +234,6 @@ app.add_handler(
     MessageHandler(filters.StatusUpdate.NEW_CHAT_MEMBERS, welcome)
 )
 app.add_handler(CommandHandler("alive", alive))
-prinprint("BOT RUNNING...")
+print("BOT RUNNING...")
 
 app.run_polling(close_loop=False)
