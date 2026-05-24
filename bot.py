@@ -1,5 +1,4 @@
-BOT
-rintprint telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, CallbackQueryHandler, filters
 
 TOKEN = "8436372151:AAHSa2Fj0e0oT2SVe-ZFYJzcRwvR20AmP6E"
