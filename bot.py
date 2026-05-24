@@ -235,4 +235,4 @@ app.add_handler(
 app.add_handler(CommandHandler("alive", alive))
 print("BOT RUNNING...")
 
-app.run_polling(close_loop=False)
+app.run_polling()
